@@ -1,0 +1,37 @@
+{
+  "name": "use-stopwatch-hook",
+  "version": "0.0.0",
+  "description": "React Stopwatch Hook",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rimraf dist/*",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiiRochi/use-stopwatch-hook.git"
+  },
+  "keywords": [
+    "react",
+    "stopwatch",
+    "react-stopwatch",
+    "hooks",
+    "hook"
+  ],
+  "author": "ShiiRochi <shiirochi@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShiiRochi/use-stopwatch-hook/issues"
+  },
+  "homepage": "https://github.com/ShiiRochi/use-stopwatch-hook#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "rimraf": "^2.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
