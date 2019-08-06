@@ -1,6 +1,6 @@
 {
   "name": "use-stopwatch-hook",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React Stopwatch Hook",
   "main": "dist/index.js",
   "scripts": {
